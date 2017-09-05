@@ -1,0 +1,215 @@
+main 
+{
+    z-index: 2;
+    float: left;
+    position: relative;
+    height: 100%; 
+    width: 100%;
+    .transform;
+}
+
+aside 
+{ 
+    height: 100%;  
+    width: 400px;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    z-index: 1;
+    .transform;
+    background-color: @orange;
+}
+
+.bar 
+{
+    display: block;
+    height: 5px;
+    width: 50px;
+    background-color: @orange;
+    margin: 10px auto;
+}
+
+.button 
+{
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    .transform;  
+}
+
+.nav-right 
+{
+    position: absolute;
+    right: 75px;
+    top: 20px;
+
+    @media (max-width: @tablet-portrait)
+        {
+        right: @dsi;
+    }
+}
+
+.nav-right.visible-xs 
+{
+    z-index: 3;
+}
+
+.hidden-xs 
+{
+    display: none;
+}
+
+.middle 
+{
+    margin: 0 auto;
+}
+
+.bar 
+{
+    .ease-all;
+}
+
+.nav-right.visible-xs .active .bar 
+{
+    background-color: @white;
+    .ease-all;
+}
+
+.button.active .top 
+{
+    .rotate45;
+}
+
+.button.active .bottom
+{
+    .rotate-45
+}
+
+.button.active .middle 
+{
+    width: 0;
+}
+
+.move-to-left 
+{
+    .translatex-400;
+}
+
+nav 
+{
+    padding-top: 30px;
+}
+
+.sidebar-list 
+{ 
+    list-style: none;
+    position: relative;
+    margin-top: 95px;
+    text-align: center;
+}
+
+.sidebar-item 
+{
+    margin: 20px 0;
+    opacity: 0;
+    .translatey-20;
+}
+
+.sidebar-item:first-child,
+.sidebar-item:last-child 
+{
+    .ease02sec;
+}
+
+.sidebar-item:nth-child(2),
+.sidebar-item:nth-child(9)
+{
+    .ease04sec
+}
+
+.sidebar-item:nth-child(3),
+.sidebar-item:nth-child(8)
+{
+    .ease06sec
+}
+
+.sidebar-item:nth-child(3),
+.sidebar-item:nth-child(7),
+.sidebar-item:-last-child
+{
+    .ease08sec
+}
+
+.sidebar-item:nth-child(4),
+.sidebar-item:nth-child(6)
+{
+    .ease010sec
+}
+
+.sidebar-item:nth-child(5)
+{
+    .ease012sec
+}
+
+.sidebar-item.active 
+{
+    opacity: 1;
+    .translatey-0;
+}
+
+.sidebar-anchor 
+{
+    color: @white;
+    text-decoration: none;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 7px;
+
+    &:hover
+    {
+        text-decoration: none;
+    }
+}
+
+.sidebar-anchor:before 
+{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: @white;
+    .ease07sec;
+}
+
+.sidebar-anchor:hover:before 
+{
+    width: 100%;
+}
+
+@media (min-width: 480px) 
+{
+    .nav-list 
+    {
+        display: block;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .nav-right 
+    {
+        position: absolute;
+    }
+    .hidden-xs 
+    {
+        display: block;
+    }
+    .visible-xs 
+    {
+        display: none;
+    }
+}

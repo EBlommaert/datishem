@@ -1,0 +1,20 @@
+module.exports = function (grunt) {
+    grunt.initConfig({
+        less: {
+            development: {
+                files: {'web/style.css': 'cache/combined.less'}
+            }
+        },
+	concat: {
+           files: {
+               src: ['assets/less/*.less'],
+               dest: 'cache/combined.less',
+           },
+        }
+    });
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.registerTask('default', ['concat', 'less']);
+    
+}
+
