@@ -1141,6 +1141,7 @@ body a.anchor {
 }
 #referenties {
   float: left;
+  margin-bottom: 70px;
 }
 #referenties .row {
   margin-top: 12px;
