@@ -453,8 +453,8 @@ body
         
         .photoshop .circle_animation 
         {
-          stroke-dasharray: 550; /* this value is the pixel circumference of the circle */
-          stroke-dashoffset: 550;
+          stroke-dasharray: 458; /* this value is the pixel circumference of the circle */
+          stroke-dashoffset: 458;
         }
         
         .illustrator .circle_animation 
@@ -463,59 +463,42 @@ body
           stroke-dashoffset: 420;
         }
         
-        .indesign .circle_animation 
+        .xd .circle_animation 
         {
-          stroke-dasharray: 415; /* this value is the pixel circumference of the circle */
-          stroke-dashoffset: 415;
+          stroke-dasharray: 425; /* this value is the pixel circumference of the circle */
+          stroke-dashoffset: 425;
         }
         
         .netbeans .circle_animation 
         {
           stroke-dasharray: 437; /* this value is the pixel circumference of the circle */
-          stroke-dashoffset: 430;
+          stroke-dashoffset: 437;
         }
         
         .git .circle_animation 
         {
-          stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
-          stroke-dashoffset: 440;
+          stroke-dasharray: 355; /* this value is the pixel circumference of the circle */
+          stroke-dashoffset: 355;
         }
         
         .cmd .circle_animation 
         {
-          stroke-dasharray: 405; /* this value is the pixel circumference of the circle */
-          stroke-dashoffset: 420;
+          stroke-dasharray: 340; /* this value is the pixel circumference of the circle */
+          stroke-dashoffset: 340;
         }
         
         .photoshop .circle_animation, 
         .illustrator .circle_animation,
-        .indesign .circle_animation, 
+        .xd .circle_animation, 
         .netbeans .circle_animation,
         .git .circle_animation,
         .cmd .circle_animation 
         {
-            -webkit-animation: css 1s ease-out forwards;
-            animation: css 1s ease-out forwards;
-        }
-        
-        .illustrator .circle_animation 
-        {
             -webkit-animation: html 1s ease-out forwards;
             animation: html 1s ease-out forwards;
         }
         
-        .netbeans .circle_animation 
-        {
-            -webkit-animation: html 1s ease-out forwards;
-            animation: html 1s ease-out forwards;
-        }
-
-        .git .circle_animation 
-        {
-            -webkit-animation: css 1s ease-out forwards;
-            animation: css 1s ease-out forwards;
-        }       
-        
+       
 
         @-webkit-keyframes html 
         {
@@ -533,20 +516,7 @@ body
           }
         }
 
-        @-webkit-keyframes css 
-        {
-          to 
-          {
-            stroke-dashoffset: 160;
-          }
-        }
-
-        @keyframes css {
-          to 
-          {
-            stroke-dashoffset: 160;
-          }
-        }
+        
     }
 }
 

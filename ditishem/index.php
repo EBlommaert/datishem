@@ -98,27 +98,27 @@
                             <h3>Illustrator</h3>
                         </div>
                         
-                        <div class="item indesign">                            
+                        <div class="item xd">                            
                             <svg width="180" height="180" xmlns="http://www.w3.org/2000/svg">
                              <g>
-                              <title>Indesign</title>
+                              <title>Adobe XD</title>
                               <circle id="circle" class="circle_animation" r="69.85699" cy="90" cx="90" stroke-width="30" stroke="#db5129" fill="#11232c"/>
                              </g>
                             </svg>
-                            <div class="percentage" data-percentage="61"></div>
-                            <h3>Indesign</h3>
+                            <div class="percentage" data-percentage="78"></div>
+                            <h3>Adobe XD</h3>
                         </div>
                         
                         <div class="item netbeans">                            
                             <svg width="180" height="180" xmlns="http://www.w3.org/2000/svg">
                              <g>
-                              <title>Netbeans</title>
+                              <title>Visual Studio Code</title>
                               <circle id="circle" class="circle_animation" r="69.85699" cy="90" cx="90" stroke-width="30" stroke="#db5129" fill="#11232c"/>
                              
                               </g>
                             </svg>
                             <div class="percentage" data-percentage="84"></div>
-                            <h3>Netbeans</h3>
+                            <h3>Visual Studio Code</h3>
                         </div>
                         
                         <div class="item git">                            
@@ -128,7 +128,7 @@
                               <circle id="circle" class="circle_animation" r="69.85699" cy="90" cx="90" stroke-width="30" stroke="#db5129" fill="#11232c"/>
                              </g>
                             </svg> 
-                            <div class="percentage" data-percentage="63"></div>
+                            <div class="percentage" data-percentage="68"></div>
                             <h3>Git</h3>
                         </div>    
                         
@@ -139,7 +139,7 @@
                               <circle id="circle" class="circle_animation" r="69.85699" cy="90" cx="90" stroke-width="30" stroke="#db5129" fill="#11232c"/>
                              </g>
                             </svg>
-                            <div class="percentage" data-percentage="53"></div>
+                            <div class="percentage" data-percentage="60"></div>
                             <h3>CMD line</h3>
                         </div>    
                         

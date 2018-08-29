@@ -842,55 +842,43 @@ body a.anchor {
   transform: rotate(-90deg);
 }
 #software .content .photoshop .circle_animation {
-  stroke-dasharray: 550;
+  stroke-dasharray: 458;
   /* this value is the pixel circumference of the circle */
-  stroke-dashoffset: 550;
+  stroke-dashoffset: 458;
 }
 #software .content .illustrator .circle_animation {
   stroke-dasharray: 420;
   /* this value is the pixel circumference of the circle */
   stroke-dashoffset: 420;
 }
-#software .content .indesign .circle_animation {
-  stroke-dasharray: 415;
+#software .content .xd .circle_animation {
+  stroke-dasharray: 425;
   /* this value is the pixel circumference of the circle */
-  stroke-dashoffset: 415;
+  stroke-dashoffset: 425;
 }
 #software .content .netbeans .circle_animation {
   stroke-dasharray: 437;
   /* this value is the pixel circumference of the circle */
-  stroke-dashoffset: 430;
+  stroke-dashoffset: 437;
 }
 #software .content .git .circle_animation {
-  stroke-dasharray: 440;
+  stroke-dasharray: 355;
   /* this value is the pixel circumference of the circle */
-  stroke-dashoffset: 440;
+  stroke-dashoffset: 355;
 }
 #software .content .cmd .circle_animation {
-  stroke-dasharray: 405;
+  stroke-dasharray: 340;
   /* this value is the pixel circumference of the circle */
-  stroke-dashoffset: 420;
+  stroke-dashoffset: 340;
 }
 #software .content .photoshop .circle_animation,
 #software .content .illustrator .circle_animation,
-#software .content .indesign .circle_animation,
+#software .content .xd .circle_animation,
 #software .content .netbeans .circle_animation,
 #software .content .git .circle_animation,
 #software .content .cmd .circle_animation {
-  -webkit-animation: css 1s ease-out forwards;
-  animation: css 1s ease-out forwards;
-}
-#software .content .illustrator .circle_animation {
   -webkit-animation: html 1s ease-out forwards;
   animation: html 1s ease-out forwards;
-}
-#software .content .netbeans .circle_animation {
-  -webkit-animation: html 1s ease-out forwards;
-  animation: html 1s ease-out forwards;
-}
-#software .content .git .circle_animation {
-  -webkit-animation: css 1s ease-out forwards;
-  animation: css 1s ease-out forwards;
 }
 @-webkit-keyframes html {
   to {
@@ -901,16 +889,6 @@ body a.anchor {
 @keyframes html {
   to {
     stroke-dashoffset: 80;
-  }
-}
-@-webkit-keyframes css {
-  to {
-    stroke-dashoffset: 160;
-  }
-}
-@keyframes css {
-  to {
-    stroke-dashoffset: 160;
   }
 }
 #specialiteiten,
