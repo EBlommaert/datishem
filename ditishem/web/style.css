@@ -780,6 +780,13 @@ body a.anchor {
 #personalia .content ul li:last-of-type {
   background-image: url(../assets/img/icons/code.png);
 }
+#personalia .content .social-links {
+  margin-top: 24px;
+}
+#personalia .content .social-links a {
+  font-size: 42px;
+  margin-right: 12px;
+}
 .left {
   opacity: 0;
   -moz-transition: all 500ms linear;

@@ -67,10 +67,16 @@
                             <li>Rijbewijs B</li>
                             <li>+31 (0)6 44 00 03 62</li>
                             <li><a href="mailto:eugene@datsishem.nl?Subject=online%20cv" target="_top">Eugene@datishem.nl</a></li>
-                            <li>Lyonnetstraat 6, 2522 NE, Den Haag</li>                            
-                            <li><a href="https://www.linkedin.com/in/eugene-blommaert-1417b437" target="_blank">linkedin.com/in/eugene-blommaert-1417b437</a></li>
-                            <li><a href="https://www.codecademy.com/coreSlayer76759" target="_blank">Codecademy</a></li>
+                            <li>Lyonnetstraat 6, 2522 NE, Den Haag</li>  
                         </ul>
+                        <div class="social-links">
+                            <h3>Profiles</h3>
+                            <a href="https://www.linkedin.com/in/eugene-blommaert-1417b437" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.behance.net/eugene1ec4" target="_blank"><i class="fab fa-behance-square"></i></a>
+                            <a href="https://github.com/EBlommaert" target="_blank"><i class="fab fa-github-square"></i></a>
+                            <a href="https://bitbucket.org/EugeneVisie/" target="_blank"><i class="fab fa-bitbucket"></i></a>
+                            <a href="https://open.spotify.com/user/1171805746?si=cJkUEHCNQ9ySQZAlgPk-OQ" target="_blank"><i class="fab fa-spotify"></i></a>
+                        </div>
                     </div>
                 </section>
                 
