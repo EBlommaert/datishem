@@ -573,6 +573,15 @@ bedienen van de kassa en het bakken van frites en snacks.
                  <section id="portfolio" class="fullwidth">
                     <div class="content">
                         <h2>Portfolio</h2>
+
+                         <div class="item">
+                            <figure>
+                                <a href="assets/img/portfolio/twisterpay.jpg" data-featherlight="image"><img src="assets/img/portfolio/twisterpay.jpg"/></a>
+                                <figcaption>
+                                    <h3><a href="https://twisterpay.com/" target="_blank">TwisterPay</a></h3>
+                                </figcaption>
+                            </figure>
+                        </div>
                         
                         <div class="item">
                             <figure>
@@ -606,14 +615,7 @@ bedienen van de kassa en het bakken van frites en snacks.
                                 </figcaption>
                             </figure>
                         </div>
-                        <div class="item">
-                            <figure>
-                            <a href="assets/img/portfolio/zld-expertise.jpg" data-featherlight="image"><img src="assets/img/portfolio/zld-expertise.jpg"/></a>
-                            <figcaption>
-                                <h3><a href="https://www.zeelandexpertise.nl/" target="_blank">Zeeland Expertise</a></h3>
-                            </figcaption>
-                            </figure>
-                        </div>
+                        
                         <div class="item">
                             <figure>
                             <a href="assets/img/portfolio/rijschooloosterschelde.jpg" data-featherlight="image"><img src="assets/img/portfolio/rijschooloosterschelde.jpg"/></a>
