@@ -363,6 +363,27 @@
                 <section id="werkervaring" class="fullwidth">
                     <div class="content">
                         <h2>Werkervaring</h2>
+
+                        <div class="row">
+                            <div class="col-1">                                
+                                Bedrijf<br/>
+                                Plaats<br/>
+                                Positie binnen bedrijf<br/>
+                                Looptijd<br/>
+                                Functie omschrijving                               
+                            </div>
+                            <div class="col-2">
+                                <strong>Amarula Solutions</strong><br/>
+                                Hoofddorp<br/>
+                                Software Developer / UI/UX Designer<br/>
+                                November 2017 t/m Heden<br/>
+                                Binnen de internationale organisatie van Amarula Solutions welke gespecialiseerd is in embedded software en hardware development alsmede Android en IOS development ben ik verantwoordelijk
+                                voor de verdere ontwikkeling van online en offline marketing en huisstijl doeleinden voor zowel Amarula Solutions als Voclarion en de startup TwisterPay. In deze functie  beoefen ik een zelfstandige rol
+                                voor het ontwerpen van drukwerk, het beheren en realiseren van diverse websites en open source projecten als ook de interactieve vormgeving, prototyping en front-end development van mobile applicaties.
+
+                            </div>                            
+                        </div>
+
                         <div class="row">
                             <div class="col-1">                                
                                 Bedrijf<br/>
