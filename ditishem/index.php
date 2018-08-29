@@ -271,6 +271,27 @@
                 <section id="opleidingen" class="fullwidth">
                     <div class="content">
                         <h2>Opleidingen</h2>
+
+                            <div class="row">
+                                <div class="col-1">                                
+                                    Studierichting<br/>
+                                    School<br/>
+                                    Plaats<br/>
+                                    Tijdsduur<br/>
+                                    Behaalde certificaten/vakken                                
+                                </div>
+                                <div class="col-2">
+                                    App development<br/>
+                                    Udemy online zelfstudie<br/>
+                                    N.V.T.<br/>
+                                    05-2018
+                                    <ul>
+                                        <li><a target="_blank" href="https://www.udemy.com/certificate/UC-SXXXSNC9/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email">Create a Full Ionic App with Material Design - Full Stack</a></li>
+                                        
+                                    </ul>
+                                </div>                            
+                            </div>
+
                         <div class="row">
                             <div class="col-1">                                
                                 Studierichting<br/>
