@@ -54,9 +54,9 @@
                             <li>Samenwonend</li>
                             <li>29-07-1990</li>
                             <li>Rijbewijs B</li>
-                            <li>06-31931450</li>
+                            <li>+31 (0)6 44 00 03 62</li>
                             <li><a href="mailto:eugene@datsishem.nl?Subject=online%20cv" target="_top">Eugene@datishem.nl</a></li>
-                            <li>Anijsweg 5, 2215 BT, Voorhout</li>                            
+                            <li>Lyonnetstraat 6, 2522 NE, Den Haag</li>                            
                             <li><a href="https://www.linkedin.com/in/eugene-blommaert-1417b437" target="_blank">linkedin.com/in/eugene-blommaert-1417b437</a></li>
                             <li><a href="https://www.codecademy.com/coreSlayer76759" target="_blank">Codecademy</a></li>
                         </ul>
