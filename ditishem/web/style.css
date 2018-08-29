@@ -777,9 +777,6 @@ body a.anchor {
 #personalia .content ul li:nth-of-type(10) {
   background-image: url(../assets/img/icons/social/linkedin.png);
 }
-#personalia .content ul li:last-of-type {
-  background-image: url(../assets/img/icons/code.png);
-}
 #personalia .content .social-links {
   margin-top: 24px;
 }
