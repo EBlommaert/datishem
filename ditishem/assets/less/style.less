@@ -786,7 +786,74 @@ body
                 top: 3px;
             }
         }
-    }    
+    }  
+    
+    button {       
+        color: @orange;
+        background: none;
+        display:block;
+        text-align:center;
+        margin: 0 auto;
+        font-size: @fontsize;
+        width:270px;
+        text-transform: uppercase;
+        .robotext;
+        font-weight: bold;      
+        border:3px solid @orange;
+        border-radius:2px;
+        position:relative;
+       
+        &:before {
+            -webkit-transition:0.5s all ease;
+            transition:0.5s all ease;
+            position:absolute;
+            top:0;
+            left:50%;
+            right:50%;
+            bottom:0;
+            opacity:0;
+            content:'';
+            background-color: @orange;
+            z-index:-2;
+        }
+        &:hover {
+            &:before {
+            -webkit-transition:0.5s all ease;
+            transition:0.5s all ease;
+            left:0;
+            right:0;
+            opacity:1;
+            }
+
+            a:link, a:visited {
+                color: @lightblue;
+            }
+        }
+        &:focus {
+            &:before {
+            transition:0.5s all ease;
+            left:0;
+            right:0;
+            opacity:1;
+            }
+        } 
+        
+        a:link, a:visited {
+            color: @orange;
+            padding: @dsi;
+            display: block;
+        }
+
+        a:hover, a:active, a:focus {
+            color: @lightblue;
+            text-decoration: none;
+        }
+
+        i {
+            font-size: 24px;           
+            margin-right: @dsi;
+        }
+    }
 }
 
 #referenties

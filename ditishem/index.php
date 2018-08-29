@@ -18,6 +18,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     </head>
     <body>
         
@@ -624,6 +626,10 @@ bedienen van de kassa en het bakken van frites en snacks.
                             </figcaption>
                             </figure>
                         </div>
+
+                        <button>
+                            <a href="https://www.behance.net/eugene1ec4" target="_blank"><i class="fab fa-behance"></i>View more</a>
+                        </button>
                     </div>
                 </section>
                 
